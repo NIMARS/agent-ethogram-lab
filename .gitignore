@@ -1,78 +1,16 @@
-# Public-release repository
-#
-# This file is only a defense-in-depth guard. Before every public commit,
-# review the complete staged diff and run a secret/content scan.
-
-# Private project, evidence, context, and agent-working material.
-.agent/
-.agents/
-.codex/
-.context_and_info/
-evidence/
-archive/
-private/
-internal/
-PROJECT_INSTRUCTIONS.md
-AGENTS.md
-CLAUDE.md
-todo_main.md
-TODO_MAIN.md
-
-# Canonical private documentation subtrees. Public documents intentionally
-# live directly under `/docs/`, so a copied private tree remains excluded.
-/docs/00_project_context/
-/docs/01_research/
-/docs/02_methodology/
-/docs/03_datasets/
-/docs/04_engineering/
-/docs/05_experiments/
-/docs/06_whitepapers/
-/docs/07_articles_and_sources/
-/docs/08_templates/
-/docs/_review/
-
-# Secrets, authentication material, and local environment files.
-.env
-.env.*
-!.env.example
-*.key
-*.pem
-*.p12
-*.pfx
-*.jks
-*.kdbx
-*.token
-*.secret
-credentials*.json
-service-account*.json
-secrets/
-credentials/
-
-# Operating-system and editor metadata.
-.DS_Store
-Thumbs.db
-Desktop.ini
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# Caches, dependency trees, test output, and generated artifacts.
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-coverage/
-htmlcov/
-.venv/
-venv/
-node_modules/
-.cache/
-build/
-dist/
-*.log
-*.tmp
-*.temp
+# Only the current PUBLIC_MANIFEST.md baseline is eligible for staging.
+# New paths require a manifest update and a fresh publication review.
+# Ignore rules do not approve publication or remove tracked/history content.
+/*
+!/.gitattributes
+!/.gitignore
+!/INDEPENDENT_DEVELOPMENT.md
+!/PROJECT_SCOPE.md
+!/PUBLIC_MANIFEST.md
+!/README.md
+!/docs/
+/docs/*
+!/docs/concept-note.md
+!/docs/glossary.md
+!/docs/public-roadmap.md
+!/docs/research-questions.md

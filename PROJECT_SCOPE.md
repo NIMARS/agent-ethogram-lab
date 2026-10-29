@@ -1,12 +1,13 @@
 # Public Project Scope
 
-Status: early public draft  
-Updated: 2026-07-28
+Status: public documentation candidate; release review pending
+
+Updated: 2026-10-29
 
 ## Purpose
 
 This document defines the subject of the public Agent Ethogram Lab materials
-and the boundary of the current public release. It is intentionally narrower
+and the boundary of the current documentation candidate. It is intentionally narrower
 than the full set of questions that may be explored during private research and
 development.
 
@@ -66,9 +67,15 @@ identified as synthetic.
 
 ## Maturity
 
-Agent Ethogram Lab is currently a research concept and planning effort. Terms,
-questions, and future methods are provisional until supported by literature
-review, operational definitions, empirical work, and independent critique.
+Agent Ethogram Lab has a local research prototype and has completed a limited
+exploratory pilot with maintainer review. The public candidate remains an
+overview of the research direction; implementation, study records, annotations,
+and findings are excluded.
+
+Engineering progress and a small pilot do not establish a validated method or
+a broadly applicable result. Research questions, measurement choices, and
+broader comparisons still require supporting evidence and independent critique.
+No hosted service or public software package is offered by this candidate.
 
 ## Publication rule
 

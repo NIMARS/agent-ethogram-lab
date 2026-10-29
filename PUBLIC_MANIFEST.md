@@ -1,13 +1,15 @@
 # Public Manifest
 
-Manifest version: 0.1.0  
-Status: public baseline allowlist  
-Updated: 2026-07-28
+Manifest version: 0.1.1
+
+Status: documentation candidate allowlist; release review pending
+
+Updated: 2026-10-29
 
 ## Purpose
 
-This manifest defines the files intended for the initial public Agent Ethogram
-Lab repository. Publication should follow an allowlist: a file is reviewed for
+This manifest defines the ten files in the Agent Ethogram Lab documentation
+candidate. Publication should follow an allowlist: a file is reviewed for
 release because it is listed here, not merely because it is absent from an
 ignore rule.
 
@@ -28,6 +30,17 @@ ignore rule.
 
 Files not listed above require an explicit manifest update and a new publication
 review before they are added.
+
+## Current revision
+
+This revision updates the high-level development status to reflect a local
+prototype and a limited exploratory pilot with maintainer review. The ten-file
+allowlist is unchanged. It adds no software, study inputs, interaction records,
+annotations, results, operational methods, or license grant.
+
+An earlier review does not approve changed content. Release requires review of
+the exact candidate versions and explicit maintainer approval. Local preparation
+does not establish that these versions have been published.
 
 ## Excluded categories
 
@@ -58,6 +71,8 @@ Before the first push and before every release:
    *validated* match reality.
 6. Confirm that the license notice is still accurate.
 7. Ensure no nested repository or private export was copied into this one.
+8. Obtain the required content reviews and explicit maintainer approval for the
+   exact candidate; repeat review for any changed file.
 
 ## Important limitation
 

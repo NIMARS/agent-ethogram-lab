@@ -1,7 +1,8 @@
 # Independent Development and Provenance Statement
 
-Status: public informational statement  
-Updated: 2026-07-28
+Status: informational candidate; release review pending
+
+Updated: 2026-10-29
 
 ## Purpose
 
@@ -18,6 +19,11 @@ materials, and decides what may be published.
 The public repository is a curated publication surface. It is not represented
 as the complete development history, and the absence of a working document
 from this repository does not imply that the document never existed.
+
+The current overview reflects development of a local prototype and a limited
+exploratory pilot. The materials supporting that work are outside this public
+candidate. This statement is not an independently reproducible report of the
+pilot or an independent validation of its interpretation.
 
 ## AI assistance
 

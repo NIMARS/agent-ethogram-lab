@@ -1,7 +1,8 @@
 # Public Concept Note
 
-Status: early conceptual draft  
-Updated: 2026-07-28
+Status: conceptual draft; release review pending
+
+Updated: 2026-10-29
 
 ## Concept
 
@@ -44,6 +45,10 @@ review and empirical study.
 
 ## Current stage
 
-The project has not released a validated framework, benchmark, dataset, or
-software implementation. The present note establishes a cautious public
-research direction only.
+The project now has a local research prototype and a limited exploratory pilot
+with maintainer review. This development progress does not establish the
+scientific validity or general usefulness of the proposed framing.
+
+This candidate contains no software implementation, benchmark, dataset, study
+records, or results. The present note describes the research direction only;
+its exact text remains subject to release review.

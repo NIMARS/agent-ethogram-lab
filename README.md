@@ -1,6 +1,10 @@
 # Agent Ethogram Lab
 
-Agent Ethogram Lab is an early-stage research project about describing and
+Status: documentation candidate; release review pending
+
+Updated: 2026-10-29
+
+Agent Ethogram Lab is a research-and-engineering project about describing and
 evaluating the **observable behavior of LLM-based agents** across extended
 interactions.
 
@@ -10,7 +14,7 @@ not imply access to a model's inner state.
 
 ## Public purpose
 
-This repository is a deliberately limited public baseline. It currently
+This repository is a deliberately limited documentation candidate. It currently
 provides:
 
 - a high-level description of the project and its boundaries;
@@ -38,10 +42,22 @@ actions, and interaction records:
 
 ## Current status
 
-The project is in an early conceptual and research-planning phase. Its scope,
-terminology, literature basis, methods, and future public artifacts remain
-subject to review. No claim of scientific novelty, validated effectiveness, or
-fitness for a particular use is made.
+Development has progressed beyond concept planning to a local research
+prototype. The working prototype supports organizing research material,
+preparing evaluations, inspecting interaction records, human annotation, and
+local reports. A limited exploratory pilot and maintainer review have been
+completed within the development environment.
+
+This is a high-level development status statement. Software, operational
+methods, inputs, records, annotations, and pilot findings are not included in
+this documentation candidate. The pilot does not establish independent
+validation, generalizable conclusions, or model superiority. Wider comparative
+studies and a hosted service remain future work.
+
+The research framing and evaluation methods continue to require review. No
+claim of scientific novelty, validated effectiveness, or fitness for a
+particular use is made. Inclusion in this workspace or its manifest does not
+approve publication; the exact candidate requires a separate release review.
 
 ## Repository map
 

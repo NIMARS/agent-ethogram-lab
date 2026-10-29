@@ -1,17 +1,30 @@
 # Public Roadmap
 
-Status: early planning draft  
-Updated: 2026-07-28
+Status: public planning draft; release review pending
+
+Updated: 2026-10-29
 
 This roadmap uses evidence and review gates rather than promised dates. It is a
 statement of intended sequence, not a delivery commitment.
+
+## Current position
+
+Local development has produced a research prototype and a limited exploratory
+pilot with maintainer review. These are internal development milestones. They
+do not mark the public gates below as accepted or provide public evidence for
+research conclusions.
+
+The next research direction is a separately planned comparison under stated
+conditions. Independent evaluation, broader studies, and any hosted service
+remain future work. This candidate continues to contain overview documents
+only; no software, study records, or findings are being released with it.
 
 ## Gate 0 — Safe public baseline
 
 Goal: establish a clean, minimal, and truthful public repository.
 
 - publish only the reviewed manifest allowlist;
-- state the early-stage status and license accurately;
+- distinguish the development stage from the public contents and license status;
 - verify repository history, metadata, and public/private separation;
 - keep claims at the level supported by public evidence.
 
@@ -43,6 +56,9 @@ provenance, privacy, and reproducibility.
 ## Gate 3 — Limited pilot
 
 Goal: test feasibility without making broad claims.
+
+The completed exploratory pilot is an initial feasibility step. Its completion
+does not by itself satisfy the review and repeatability conditions of this gate.
 
 - use synthetic or otherwise clearly authorized material;
 - record the conditions needed to interpret observations;
